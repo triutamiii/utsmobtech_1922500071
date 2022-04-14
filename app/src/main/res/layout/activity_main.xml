@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="KALKULATOR GRADE UNIVERSITAS XYZ KOTA TIMAH"
+        android:textSize="27dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/edabsensi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="8pt"
+        android:hint="Absensi"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/edtugas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="8pt"
+        android:hint="Tugas"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/eduts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="8pt"
+        android:hint="UTS"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/eduas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="8pt"
+        android:hint="UAS"
+        android:text="" />
+
+    <Button
+        android:id="@+id/bthitung"
+        android:layout_width="125dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:text="Hitung"
+        android:onClick="hitung"
+        app:backgroundTint="#8334EB"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nilai Akhir"
+        android:textSize="10pt"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:id="@+id/edakhir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="8pt"
+        android:text="" />
+
+</LinearLayout>
